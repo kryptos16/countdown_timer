@@ -1,17 +1,28 @@
-🔧 How to Run This Project
+🚀 How to Run This Project
 Extract ZIP file
 
-1)Open terminal in server folder
+1)Backend Setup (/server):
+
+Open terminal inside server folder
 
 Run: npm install
 
-Then: npm run dev
+If error: "EADDRINUSE: Port 5001 in use", then close previous process:
 
-2)Open terminal in client folder
+Press Ctrl + C or kill using Task Manager
+
+Start server: npm run dev
+
+2)Frontend Setup (/client):
+
+Open terminal inside client folder
 
 Run: npm install
 
-Then: npm start
+# If error:
 
-✅ Make sure nothing else is running on port 5001.
-✅ Run server first, then client.
+Run: npm install react react-dom web-vitals
+
+Then run: npm start
+
+⚠️ Important: Start server first, then client.
